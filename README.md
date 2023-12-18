@@ -31,7 +31,7 @@ __first_entity__, __second_entity__, __relation_type__, __relation_class__
  'Disease:DisTypeDiseasename_Disease:DisTypeIndication',
  'Medication:MedTypeDrugname_Disease:DisTypeDiseasename',
  'Medication:MedTypeDrugname_Medication:MedTypeSourceInfodrug')
-- __relation_class__ - класс отношения, принимает значение 0 или 1. #TODO Что это?
+- __relation_class__ - класс отношения, принимает значение 0 или 1.
 
 Каждый элемент списка __entities__ имеет структуру словаря, где ключ это номер сущности, а значение словарь с описанием этой сущности
 
