@@ -82,3 +82,15 @@ __first_entity__, __second_entity__, __relation_type__, __relation_class__
 
 Список статей:  
 - Сбоев А.Г., Рыбка Р.Б., Грязнов А.В., Молошников И.А., Сбоева С.Г., Рыльков Г., Селиванов А.А. Adverse Drug Reaction Concept Normalization in Russian-Language Reviews of Internet Users. Big Data and Cognitive Computing Big Data and Cognitive Computing;MDPI AG (Switzerland), 6(4), 145 (год публикации - 2022) https://doi.org/10.3390/bdcc6040145
+
+## Sentiment analysis
+Решается задача бинарной классификации, в которой по тексту отзыва определяется было ли полезно описанное лекарство.  
+Метрика - F1  
+Лучшие результаты:
+
+| Dataset   | F1-macro | Paper                                                                                                                                                                                                                                                     |
+|-----------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RDRS 2800 | 0.92     | [Сбоев А.Г., Наумов А.В., Молошников И.А., Рыбка Р.Б. Sentiment Analysis of Russian Reviews to Estimate the Usefulness of Drugs Using the Domain-Specific XLM-RoBERTa Model  Springer's Studies in Computational Intelligence, - (год публикации - 2022)] |  
+
+Список статей:
+- Сбоев А.Г., Наумов А.В., Молошников И.А., Рыбка Р.Б. Sentiment Analysis of Russian Reviews to Estimate the Usefulness of Drugs Using the Domain-Specific XLM-RoBERTa Model Springer's Studies in Computational Intelligence, - (год публикации - 2022)	
